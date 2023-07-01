@@ -32,7 +32,7 @@ public class task3 {
         return array; 
     }
 
-    /**
+    /** Метод проверяет равны ли массивы:
      * @param arr1
      * @param arr2
      * @return возвращает ошибку или true;
@@ -47,6 +47,12 @@ public class task3 {
         }
         return arrayLonger;
     }
+
+    /** Метод делить один массивы на другой.
+     * @param array1
+     * @param array2
+     * @return
+     */
     public static double[]divArrays(int[]array1, int[]array2) {        
         double[]subArrays = new double[array1.length];
         
@@ -56,6 +62,5 @@ public class task3 {
             else subArrays[i] = Math.round((double)array1[i] / ((double)(array2[i])));                
         }
         return subArrays;
-        
     }         
 }
