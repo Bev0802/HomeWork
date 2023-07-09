@@ -39,10 +39,11 @@ public class task {
       saveFile(user, fileUser);      
    }   
 
-   /**Метод сохранения полученных данных в файл. Вызывается метод проверка checkingFile() есть ли файл с таким именем
-    * если нет то создается, а если есть то данные дописывается в файл. Если писать кириллицей в файл записываются "калябы-молябы". 
-    * @param user
-    * @param fileUser
+   /**Метод сохранения полученных данных в файл. Вызывается метод проверка checkingFile() есть ли файл с таким именем.
+    * Если файла нет то создается файл createNewFile(), а если есть то данные дописывается в файлWriterUserFile(user, fileUser). 
+    * Если писать кириллицей в файл записываются "калябы-молябы". 
+    * @param user - данные пользователя.
+    * @param fileUser - файл куда записываем.
     */
    public static void saveFile(Person user, File fileUser){
       String lastname = user.lastName;
