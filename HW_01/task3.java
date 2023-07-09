@@ -1,4 +1,4 @@
-package HomeWork.HW_01;
+package ExceptionsHomeWork.HW_01;
 
 import java.util.Arrays;
 import java.util.Random;

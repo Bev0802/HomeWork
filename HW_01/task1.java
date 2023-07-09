@@ -1,7 +1,6 @@
 
-package HomeWork.HW_01;
+package ExceptionsHomeWork.HW_01;
 
-import java.io.IOException;
 import java.util.Scanner;
 import java.util.Random;
 
